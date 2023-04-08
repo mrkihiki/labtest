@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/webapp_3_0.xsd" version="3.0">
+  <servlet>
+   <servlet-name>
+    WebController
+   </servlet-name>
+   <servlet-class>
+     controller.WebController
+   </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>
+    WebController
+   </servlet-name>
+   <url-pattern>
+    /Enter
+   </url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+   <servlet-name>
+    WebController
+   </servlet-name>
+   <url-pattern>
+    /add
+   </url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+   <servlet-name>
+    WebController
+   </servlet-name>
+   <url-pattern>
+    /login
+   </url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+   <servlet-name>
+    WebController
+   </servlet-name>
+   <url-pattern>
+    /registration
+   </url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+   <servlet-name>
+    WebController
+   </servlet-name>
+   <url-pattern>
+    /del
+   </url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+   <servlet-name>
+    WebController
+   </servlet-name>
+   <url-pattern>
+    /out
+   </url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+   <servlet-name>
+    WebController
+   </servlet-name>
+   <url-pattern>
+    /prov
+   </url-pattern>
+  </servlet-mapping>
+
+</web-app>
